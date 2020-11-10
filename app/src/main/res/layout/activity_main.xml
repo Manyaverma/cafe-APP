@@ -1,0 +1,47 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEBEE">
+
+    <ImageView
+        android:id="@+id/coffeeshoplogo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/coffeeshoplogo"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:id="@+id/coffeeshop"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/coffeeshop"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/coffeeshoplogo" />
+    <TextView
+        android:id="@+id/ourstory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OUR STORY"
+        android:fontFamily="monospace"
+        android:textColor="#3E2723"
+        android:layout_below="@id/coffeeshop"
+        android:textSize="35sp"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Established in year 2000, CAFE BONO is the pioneer of coffee culture in India. The CAFE BONO chain of espresso bars delivers a truly Italian coffee experience in warm, friendly and relaxed environment. It provides a comfortable place for people to unwind over interesting conversations and a hot cup of coffee. The CAFE BONOLimited has over 225 BONO Coffee Espresso Cafe and BONO Coffee Kiosks across India including its Franchise partners. Besides India, BONO Coffee also has cafés in locations across Myanmar and Nepal."
+        android:fontFamily="cursive"
+        android:textColor="@color/black"
+        android:layout_below="@id/ourstory"
+        android:textSize="15sp"
+        android:layout_margin="10dp"/>
+
+
+
+
+
+</RelativeLayout>
